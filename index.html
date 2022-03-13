@@ -67,7 +67,7 @@
           О нас
         </h2>
         <div class="about__item">
-          <img src="images/branson.jpg" alt="branson" class="about_img">
+          <img src="images/branson.jpg" alt="branson" class="about__img">
           <div class="about__content">
             <h3 class="about__content-title">Virgin Galactic</h3>
             <h5 class="about__content-subtitle">суборбитальный полет</h5>
@@ -88,11 +88,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">1 <span>час</span></td>
-                <td class="about__table-td">80 <span>км</span></td>
-                <td class="about__table-td">4-5<span>мин</span></td>
-                <td class="about__table-td">250 <span>тыс. дол</span></td>
-                <td class="about__table-td">99 <span>%</span></td>
+                <td aria-label="время в пути" class="about__table-td"> 1 <span>час</span></td>
+                <td aria-label="расстояние" class="about__table-td"> 80 <span>км</span></td>
+                <td aria-label="в невесомости" class="about__table-td"> 4-5 <span>мин</span></td>
+                <td aria-label="стоимость" class="about__table-td"> 250 <span>тыс. дол</span></td>
+                <td aria-label="вернешься?" class="about__table-td"> 99 <span>%</span></td>
               </tr>
             </table>
             <button class="button">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
@@ -100,7 +100,7 @@
         </div>
 
         <div class="about__item">
-          <img src="images/bezos.png" alt="bazos" class="about_img">
+          <img src="images/bezos.png" alt="bazos" class="about__img">
           <div class="about__content">
             <h3 class="about__content-title">Blue Origin</h3>
             <h5 class="about__content-subtitle">суборбитальный полет</h5>
@@ -124,11 +124,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">10 <span>мин</span></td>
-                <td class="about__table-td">100 <span>км</span></td>
-                <td class="about__table-td">4-5<span>мин</span></td>
-                <td class="about__table-td">250 <span>тыс. дол</span></td>
-                <td class="about__table-td">99 <span>%</span></td>
+                <td aria-label="время в пути" class="about__table-td"> 10 <span>мин</span></td>
+                <td aria-label="расстояние" class="about__table-td"> 100 <span>км</span></td>
+                <td aria-label="в невесомости" class="about__table-td" >4-5 <span>мин</span></td>
+                <td aria-label="стоимость" class="about__table-td"> 250 <span>тыс. дол</span></td>
+                <td aria-label="вернешься?" class="about__table-td"> 99 <span>%</span></td>
               </tr>
 
             </table>
@@ -139,7 +139,7 @@
 
 
         <div class="about__item">
-          <img src="images/mask.png" alt="mask" class="about_img">
+          <img src="images/mask.png" alt="mask" class="about__img">
           <div class="about__content">
             <h3 class="about__content-title">SpaceX</h3>
             <h5 class="about__content-subtitle">А может на Луну или Марс?</h5>
@@ -165,11 +165,11 @@
                 <td class="about__table-td">вернешься?</td>
               </tr>
               <tr class="about__table-tr">
-                <td class="about__table-td">150 <span>дней</span></td>
-                <td class="about__table-td">55 <span>млн. км</span></td>
-                <td class="about__table-td">много<span>мин</span></td>
-                <td class="about__table-td">10 <span>млрд. дол</span></td>
-                <td class="about__table-td">1 <span>%</span></td>
+                <td aria-label="время в пути" class="about__table-td"> 150 <span>дней</span></td>
+                <td aria-label="расстояние" class="about__table-td"> 55 <span>млн. км</span></td>
+                <td aria-label="в невесомости" class="about__table-td"> много <span>мин</span></td>
+                <td aria-label="стоимость" class="about__table-td"> 10 <span>млрд. дол</span></td>
+                <td aria-label="вернешься" class="about__table-td"> 1 <span>%</span></td>
               </tr>
             </table>
             <button class="button">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
@@ -225,13 +225,22 @@
               </foreignObject>
             </g>
           </svg>
+          <ul class="how-to__box-list">
+            <li class="how-to__box-item">Выбираете программу</li>
+            <li class="how-to__box-item">Оплачиваете</li>
+            <li class="how-to__box-item">Какая-то будет подготовка</li>
+            <li class="how-to__box-item">Садимся. Летим. Невесомость</li>
+            <li class="how-to__box-item">Делаем фото в инстаграм</li>
+            <li class="how-to__box-item">Едим из тюбиков: 5 видов меню на выбор (веган, спорт, безлактозное, безглютеновое, обычное)</li>
+            <li class="how-to__box-item">Приземляемся, но это не точно</li>
+          </ul>
         </div>
       </div>
     </section>
     <section class="to-book">
       <div class="container">
         <div class="to-book__inner">
-          <h2 class="title">Успей <br> забронировать!</h2>
+          <h2 class="title to-book__title">Успей <br> забронировать!</h2>
           <p class="to-book__text">Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты
             начнутся до 2022 года. Компания уже
             несколько лет продает билеты на такие полеты по 250 тыс долл.
@@ -282,7 +291,7 @@
       </div>
       <div class="services">
         <div class="container">
-          <h2 class="title">Дополнительные <br> услуги</h2>
+          <h2 class="title service__title">Дополнительные <br> услуги</h2>
           <div class="services__inner">
             <div class="services__box-list">
               <p class="services__list-title">С Вами полетит профессиональный фотограф</p>
